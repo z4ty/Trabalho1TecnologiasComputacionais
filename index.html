@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family:Futura;
+    }
+
+    html{
+        background-image: url("imagens/background.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+
+    }
+
+    h1{
+        font-size:600%;
+        margin: 1%;
+        padding: 1%;
+    }
+
+    section{
+        background-color: rgba(0, 0, 0, 0.815);
+        color: white;
+        text-align: center;
+        display: block;
+        margin-bottom: 5%;
+        padding: 2%;
+        border-radius: 3%;
+    }
+
+    nav ul {
+        background-color: white;
+        list-style-type: none;
+        padding: 1%;
+        font-size: 120%;
+    }
+
+    nav ul li {     
+        margin: 0% 1%;
+        display: inline;
+        position: relative;
+        float: right;
+    }
+
+    nav ul a {
+        margin: 0;
+        padding: 0;
+        color: black;
+        text-decoration: none;
+    }
+
+    th,td {
+        padding: 1%;
+        border: 1px solid;
+    }
+    table {
+        background-color: rgba(218, 113, 14, 0.459);
+        width: 60%;
+        margin: 2% 20%;
+        border: 1px solid;
+        border-radius: 5px;
+    }
+    div table td{
+        font-size: small;
+    }
+    footer {
+        width: 100%;
+        bottom: 0;
+        position: relative;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+
+
+</style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>                
+                <a style="margin: 1%;" href="https://playvalorant.com/pt-br/"target="_blank">VALORANT</a>
+               <a href="index.html">HOME</a>
+               <li><a href="página/cadastro.html">Cadastro</a></li>
+               <li><a href="página/login.html">Login</a></li>
+           </ul>
+       </nav>
+    </header> <br><br>
+    <section>
+        <div>
+            <h1>VALORANT</h1>
+            Valorant é o jogo de tiro 5x5 tático da Riot Games, empresa principalmente conhecida por criar o jogo: League of Legends.
+        </div>    
+    </section>    
+    <section>
+        <div>
+            <h2>VALORANT vs Counter-Strike</h2>
+            <p>Valorant funciona no modelo tático de Counter-Strike, tendo elementos parecidos e dependendo até iguais. (Na tabela abaixo apena as partidas ranqueadas foram levadas em consideração)
+            </p>
+            <table>
+                <tr>
+                    <th style="width: 10%;">Elementos</th>
+                    <th style="width: 30%;">Valorant</th>
+                    <th style="width: 30%;">Counter Strike</th>
+                </tr>
+                <tr>
+                    <td>Sistema de Lados</td>
+                    <td>Atacantes e defensores,  ao passar 12 rounds os times invertem os lados</td>
+                    <td>Terroristas e Contra-Terroristas, antes ao passar 15, mas em agosto de 2023 mudou para 12</td>
+                </tr>
+                <tr>
+                    <td>Sistemas de Rounds</td>
+                    <td>Primeiro a 13 ganha</td>
+                    <td>Antes: primeiro a 16 ganha. Agora: o primeiro a 13</td>
+                </tr>
+                <tr>
+                    <td>Vitória nos Rounds</td>
+                    <td>Eliminando toda a equipe inimiga para ambos os times; Em caso de ataque: Armando a Spike e defende-lá até sua detonação; Em caso de defesa: Desativando a Spike após ter sido armada, ou aguardando o tempo do round acabar tendo pelo menos 1 jogador vivo </td>
+                    <td>Mecânica idêntica mudando apenas o fato de que ao invés da Spike, é utilizado pelo lado TR uma C4</td>
+                </tr>
+                <tr>
+                    <td>Empate</td>
+                    <td>Em caso de 12-12 a partida começará a prorrogação, onde o time que abrir a vantagem de 2 rounds ganha</td>
+                    <td>Antes: 15-15 era empate. Agora: 12-12 prorrogação</td>
+                </tr>
+                <tr>
+                    <td>Menu de Compra</td>
+                    <td>Armas, Escudos e Habilidades, totalizando 18 armas e habilidades variam dependendo dos Agentes</td>
+                    <td>Armas e Utilitários, totalizando 34 armas e 9 utilitários diferentes</td>
+                </tr>
+                <tr>
+                    <td>Economia</td>
+                    <td>Ambos possuem sistema de economia baseado na quantidade de rounds perdidos seguidos e abates para cada jogador</td>
+                    <td>Sistema semelhante, com diferença baseada no preço dos itens</td>
+                </tr>
+                <tr>
+                    <td>Utilitários</td>
+                    <td>Os utilitários dependem do agente selecionado, sendo na verdade suas habilidades; cada jogador do time seleciona um agente diferente</td>
+                    <td>Utilitários universais, variando apenas pelo time, TRs não têm acesso a Kit de Desarme</td>
+                </tr>
+                <tr>
+                    <td>Mapas</td>
+                    <td>Hoje (setembro de 2023) o valorant possui 10 mapas diferentes, todos com mecânicas únicas como 3 bombsites, portas quebráveis, etc</td>
+                    <td>Agora com o beta do CS2 o jogo possui 8 mapas oficiais jogáveis, todos com estilos difentes porém sem mecânicas especificas</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <p>Site feito por fã sem fins lucrativos, VALORANT pertence completamente a:</p>
+        <a href="https://www.riotgames.com/pt-br" target="_blank"><img src="imagens/riot-games-logo.jpg" alt="logodariot" width="8%" style="margin: 1%; text-align: left;"></a>
+    </footer>
+</body>
+</html>
